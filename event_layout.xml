@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:minHeight="80dp"
+    android:background="@color/default_divider_color_light">
+    <TextView
+        android:layout_width="20dp"
+        android:layout_height="match_parent"
+        android:text="9"
+        android:textSize="10sp"
+        android:textAlignment="textEnd"
+        android:id="@+id/adapter_hour"
+        android:background="@color/bpWhite"
+        android:onClick=""/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:background="@color/bpWhite"
+            android:layout_marginLeft="1dp"
+            android:text="Engineering Graphics"
+            android:textSize="15sp"
+            android:id="@+id/adapter_monday"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="1dp"
+            android:background="@color/bpWhite"
+            android:text="Engineering Graphics"
+            android:textSize="15sp"
+            android:id="@+id/adapter_tuesday"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="1dp"
+            android:background="@color/bpWhite"
+            android:text="Engineering Graphics"
+            android:textSize="15sp"
+            android:id="@+id/adapter_wednesday"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="1dp"
+            android:background="@color/bpWhite"
+            android:text="Engineering Graphics"
+            android:textSize="15sp"
+            android:id="@+id/adapter_thursday"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="1dp"
+            android:background="@color/bpWhite"
+            android:text="Engineering Graphics"
+            android:textSize="15sp"
+            android:id="@+id/adapter_friday"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="1dp"
+            android:background="@color/bpWhite"
+            android:text="Engineering Graphics"
+            android:textSize="15sp"
+            android:id="@+id/adapter_saturday"/>
+    </LinearLayout>
+</LinearLayout>

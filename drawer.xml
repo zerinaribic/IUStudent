@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:title="@string/overview"
+            android:id="@+id/overview"
+            android:icon="@drawable/eye_icon"/>
+        <item
+            android:title="@string/timetable"
+            android:id="@+id/timetable"
+            android:icon="@drawable/calendar_range"/>
+        <item
+            android:title="@string/class_list"
+            android:id="@+id/class_list"
+            android:icon="@drawable/calendar_clock"/>
+        <item
+            android:title="@string/exam_list"
+            android:id="@+id/exam_list"
+            android:icon="@drawable/a_plus_icon"/>
+    </group>
+</menu>
